@@ -9,6 +9,32 @@
       href="https://www.flamengo.com.br/img/favicon.ico"
     />
   </head>
+  <style>
+    body {
+      font-family: Georgia, serif;
+    }
+    td {
+      padding: 5px 10px;
+      border: 1px solid black;
+    }
+    th {
+      border: 1px solid black;
+      font-size: 1.125em;
+      padding: 5px 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input {
+      display: block;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      display: inline;
+    }
+  </style>
   <body>
     <!-- Apresentação do Site -->
     <header>
@@ -54,8 +80,8 @@
     </section>
 
     <!-- Seção com dados sobre o Flamengo -->
-    <section>
-      <table border="1">
+    <section style="max-width: 960px; margin: 1.5em auto">
+      <table>
         <thead>
           <th>A maior torcida do Brasil</th>
           <th>Libertadores: O sonho que virou realidade</th>
@@ -81,5 +107,67 @@
         </tbody>
       </table>
     </section>
+
+    <!-- Formulário de cadastro de usuários -->
+    <article>
+      <!-- Breve descrição -->
+      <h2>Assine a nossa newsletter</h2>
+      <p>
+        Aproveite essa oportunidade e fique por dentro sobre tudo que acontece
+        no Mengão!
+      </p>
+
+      <!-- Formulário -->
+      <form action="https://www.w3schools.com/action_page.php">
+        <label for="name">Nome</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Digite aqui seu nome"
+          maxlength="15"
+        /><br />
+
+        <label for="shop">Conheça a loja do mais querido</label>
+        <input
+          type="text"
+          name="shop"
+          id="shop"
+          value="https://loja.flamengo.com.br/"
+          readonly
+        /><br />
+
+        <label for="frequency"
+          >Em uma escala de 1 a 10, qual a sua frequência ao Maracanã em jogos
+          do Flamengo ?</label
+        >
+        <input
+          type="number"
+          name="frequency"
+          id="frequency"
+          min="1"
+          max="10"
+        /><br />
+
+        <label for="items"
+          >Quais dos itens a seguir você estaria mais propenso a comprar
+          ?</label
+        >
+        <div><input type="checkbox" /> Camisa do Flamengo</div>
+        <div><input type="checkbox" /> Short do Flamengo</div>
+        <div><input type="checkbox" /> Jaqueta do Flamengo</div>
+        <div><input type="checkbox" /> Caneca do Flamengo</div>
+        <div style="margin-bottom: 10px">
+          <input type="checkbox" /> Boneco do Gabigol
+        </div>
+
+        <label for="flashopsearch"
+          >Você já comprou algum item do Flamengo na loja oficial do
+          clube?</label
+        >
+        <div><input type="radio" name="flashopsearch" /> Sim</div>
+        <div><input type="radio" name="flashopsearch" /> Não</div>
+      </form>
+    </article>
   </body>
 </html>
