@@ -518,3 +518,46 @@ div.absolute_body76 {
   left: 180px;
   background-color: #0100fe;
 }
+
+/* Oitava linha de quadrados do corpo */
+div.absolute_body81 {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  background-color: #462201;
+}
+
+div.absolute_body82 {
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  background-color: #462201;
+}
+
+div.absolute_body83 {
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  background-color: #462201;
+}
+
+div.absolute_body84 {
+  position: absolute;
+  top: 140px;
+  left: 160px;
+  background-color: #462201;
+}
+
+div.absolute_body85 {
+  position: absolute;
+  top: 140px;
+  left: 180px;
+  background-color: #462201;
+}
+
+div.absolute_body86 {
+  position: absolute;
+  top: 140px;
+  left: 200px;
+  background-color: #462201;
+}
