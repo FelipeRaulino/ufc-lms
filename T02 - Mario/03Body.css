@@ -135,3 +135,88 @@ div.absolute_body210 {
   left: 200px;
   background-color: #ec1d25;
 }
+
+/* Terceira linha de quadrados do corpo */
+
+div.absolute_body31 {
+  position: absolute;
+  top: 40px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body32 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body33 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body34 {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body35 {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  background-color: #0100fe;
+}
+
+div.absolute_body36 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  background-color: #0100fe;
+}
+
+div.absolute_body37 {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  background-color: #0100fe;
+}
+
+div.absolute_body38 {
+  position: absolute;
+  top: 40px;
+  left: 140px;
+  background-color: #0100fe;
+}
+
+div.absolute_body39 {
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body310 {
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body311 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  background-color: #ec1d25;
+}
+
+div.absolute_body312 {
+  position: absolute;
+  top: 40px;
+  left: 220px;
+  background-color: #ec1d25;
+}
