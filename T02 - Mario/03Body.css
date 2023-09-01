@@ -561,3 +561,60 @@ div.absolute_body86 {
   left: 200px;
   background-color: #462201;
 }
+
+/* Nona linha de quadrados do corpo */
+div.absolute_body91 {
+  position: absolute;
+  top: 160px;
+  left: 0px;
+  background-color: #462201;
+}
+
+div.absolute_body92 {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  background-color: #462201;
+}
+
+div.absolute_body93 {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+  background-color: #462201;
+}
+
+div.absolute_body94 {
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  background-color: #462201;
+}
+
+div.absolute_body95 {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  background-color: #462201;
+}
+
+div.absolute_body96 {
+  position: absolute;
+  top: 160px;
+  left: 180px;
+  background-color: #462201;
+}
+
+div.absolute_body97 {
+  position: absolute;
+  top: 160px;
+  left: 200px;
+  background-color: #462201;
+}
+
+div.absolute_body98 {
+  position: absolute;
+  top: 160px;
+  left: 220px;
+  background-color: #462201;
+}
